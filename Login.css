@@ -1,0 +1,143 @@
+body {
+  background-color: #FF6C22;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.ceu {
+  margin: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 470px;
+
+}
+
+.not {
+  position: absolute;
+  margin: auto;
+  margin-top: -417px;
+  margin-bottom: 0px;
+  margin-left: 370px;
+  margin-right: 0px;
+}
+
+.tropa {
+  position: absolute;
+  margin: auto;
+  margin-top: -450px;
+  margin-bottom: 0;
+  margin-left: 70px;
+  margin-right: 0;
+}
+
+.Tela {
+  position: absolute;
+  width: 857px;
+  height: 512px;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+  
+
+.Imagens {
+    /*background-image:url(../src/img/Image.png);*/
+    position: absolute;
+  width: 389px;
+  height: 512px;
+  left: 470px;
+  top: 0px;
+  border-radius: opx 4px 4px 0px;
+}
+  
+.image {
+    background-image:gray; /*url(../src/img/not.png);*/
+    position: absolute;
+  width: 414px;
+  height: 413px;
+  left: -50px;
+  top: 99px;
+}
+  
+.image2 {
+    background-image:blue; /*url(../src/img/Tropa.png);*/
+    position: absolute;
+  width: 259px;
+  height: 77.54px;
+  left: -380px;
+  top: 70px;
+}
+  
+.Text-Painel {
+    position: absolute;
+  width: 217px;
+  height: 54px;
+  left: 50px;
+  top: 200px;
+  
+  font-family: 'Advent Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.44);
+}
+  
+.Text-Painel a {
+    color:#FF6C22;
+}
+  
+.input-email{
+    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+  margin: auto;
+  width: 313px;
+  height: 44px;
+  left: 0px;
+  top: 90%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+}
+  
+.input-senha {
+    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 313px;
+  height: 44px;
+  margin: auto;
+  left: 0px;
+  top: 220%;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+}
+  
+.buttonNext{
+    position: absolute;
+    width: 151px;
+    height: 40px;
+    left: 0px;
+    top: 200px;
+    background: #2EAFB2;
+    border-radius: 5px;
+    font-family: 'Roboto'sans-serif; 
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 190.5%;
+    color: #FFFFFF;
+}
+.buttonNext:hover{opacity: 0.6;}

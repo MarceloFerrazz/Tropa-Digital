@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Racing+Sans+One&family=Roboto&display=swap');
+body{
+    background-color: #E5E5E5;
+}
+.container {
+    margin-left: 260px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.Cardd {
+    padding: 1% 0px ;
+    background-color: #fff;
+    width: 500px;
+    height: 218px;
+    margin:10px auto;
+    border-radius: 5px;
+}
+
+
+.Card{
+    position: absolute;
+    background-color: #fff;
+    height:69rem ;
+    width: 260px;
+    margin: auto;
+    left: 0px;
+    top: 475px;
+    bottom: 0px;
+    border: #2EAFB2;
+
+}
+
+.button {
+    width: 211px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-family: 'Advent Pro', sans-serif;
+    background: #2EAFB2;
+    border-radius: 5px;
+    font-size: 25px;
+    border: #2EAFB2;
+    color: rgba(255, 255, 255, 1);
+}
+.button:hover{opacity: 0.6;}
+
+
+a {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.44);
+}
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.44);
+    margin-left:260px ;
+    padding: 20px;
+
+}
+
+.tropaa {
+    padding-bottom: 70px;
+    width: 190px;
+    height: 58.88px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+}
